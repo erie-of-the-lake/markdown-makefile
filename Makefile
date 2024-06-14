@@ -68,6 +68,7 @@ PANDOC_TXT_ARGS  := --to=$(call get_pandoc_format,'txt')
 PANDOC_FROM_MD_ARGS := --from=markdown
 PANDOC_TO_MD_ARGS   := --to=markdown
 
+# NOTE: Change `target` below to target name of choice
 target := example
 target_file := $(target).md
 
